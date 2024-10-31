@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35208.52
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListaLigada.Logica", "..\ListaLigada.Logica\ListaLigada.Logica.csproj", "{62256C8E-0E3D-43B5-8036-96218B88304C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ListaLigada.IU.Consola", "..\ListaLigada.IU.Consola\ListaLigada.IU.Consola.csproj", "{3699411F-5E04-43DE-A11C-419521FB313D}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{62256C8E-0E3D-43B5-8036-96218B88304C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{62256C8E-0E3D-43B5-8036-96218B88304C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{62256C8E-0E3D-43B5-8036-96218B88304C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{62256C8E-0E3D-43B5-8036-96218B88304C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3699411F-5E04-43DE-A11C-419521FB313D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3699411F-5E04-43DE-A11C-419521FB313D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3699411F-5E04-43DE-A11C-419521FB313D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3699411F-5E04-43DE-A11C-419521FB313D}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E8AAB937-3260-4F9D-BE5C-E45411C24798}
+	EndGlobalSection
+EndGlobal
