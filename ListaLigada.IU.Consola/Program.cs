@@ -1,10 +1,11 @@
 ﻿using ListaLigada.Logica;
 
+
 internal class Program
 {
     private static void Main(string[] args)
     {
-        Console.WriteLine("Lista LIgada simple");
+        Console.WriteLine("Lista Ligada simple");
 
         var singleList = new SingleList<String>();
         int opcion = 0;

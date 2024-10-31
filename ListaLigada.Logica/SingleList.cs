@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
+﻿
 
 namespace ListaLigada.Logica
 {
@@ -10,7 +6,8 @@ namespace ListaLigada.Logica
     {
         private SingleNode<T>? _first;
 
-        private SingleList()
+        //lo cambie de private a public
+        public SingleList()
         {
             _first = null;
         }
