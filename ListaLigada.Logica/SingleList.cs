@@ -37,8 +37,33 @@ namespace ListaLigada.Logica
 
         public bool Remove(T elemento) 
         {
+            var previo = _first;
+            var pointer = _first;
+
+            while (pointer != null)
+            {
+
+                if (pointer.Data!.Equals(elemento)) 
+                {
+
+                    if (pointer == _first)
+                    {
+                        _first = pointer.Next;
+                    }
+                    else
+                    {
+                        previo!.Next = pointer.Next;
+
+                    }
+                    return true;
+                }
+
+                previo = pointer;
+                pointer = pointer.Next;
+
+            }
             
-            return 0;
+            return false;//si no encontro el elelemento
         }
 
         public override string ToString()
@@ -49,11 +74,11 @@ namespace ListaLigada.Logica
             while (pointer != null)
             {
                 cadenaLista += $"{pointer.Data}\n";
-
+                pointer = pointer.Next;
             }
 
             return cadenaLista.ToString();
-            pointer = pointer.Next;
+           
         }
 
 
