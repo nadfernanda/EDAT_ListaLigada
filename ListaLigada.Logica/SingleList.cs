@@ -35,6 +35,12 @@ namespace ListaLigada.Logica
 
         }
 
+        public bool Remove(T elemento) 
+        {
+            
+            return 0;
+        }
+
         public override string ToString()
         {
             var cadenaLista = String.Empty;

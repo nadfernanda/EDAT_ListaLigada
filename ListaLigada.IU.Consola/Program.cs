@@ -17,7 +17,9 @@ internal class Program
             {
                 case 1: AgregarElemento(); break;
                 case 2: MostrarLista(); break;
+                case 3:  EliminarElemento(); break;
 
+                case 0: Console.WriteLine("presionr uns tecla cualquiera para salir"); break;
                     //default: Console.WriteLine("la opcion no existe");
                     //    break;
             }
@@ -52,16 +54,23 @@ internal class Program
 
         }
 
+       void EliminarElemento()
+        {
+            throw new NotImplementedException();
+        }
+
         Console.ReadKey();
     }//fin de main
 
-
+    
 
     private static int Menu()
     {
         Console.WriteLine("Menu\n");
         Console.WriteLine("1.Agregar elemento");
         Console.WriteLine("2.Agregar lista");
+        Console.WriteLine("3.Eliminar elemento");
+
         Console.WriteLine("0.Salir");
 
         bool esValido = false;
